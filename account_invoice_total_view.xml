@@ -8,8 +8,7 @@
 			<field name="inherit_id" ref="account.invoice_supplier_form"/>
 			<field name="arch" type="xml">
 				<field name="date_due" position="after">
-					<label colspan="2"/>
-					<field name="check_total" colspan="2" required="2"/>
+					<field name="check_total" required="2"/>
 				</field>
 			</field>
 		</record>
